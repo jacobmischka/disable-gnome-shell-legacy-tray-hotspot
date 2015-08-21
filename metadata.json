@@ -3,5 +3,5 @@
     "uuid": "prevent-legacy-tray-hotspot@mischka.me",
     "name": "Prevent Legacy Tray Hotspot",
     "description": "Removes the hotspot that opens the tray by increasing the threshold.",
-    "url": "http://github.com/jacobmischka/shell-hide-legacy-tray/"
+    "url": "http://github.com/jacobmischka/disable-gnome-shell-legacy-tray-hotspot/"
 }
