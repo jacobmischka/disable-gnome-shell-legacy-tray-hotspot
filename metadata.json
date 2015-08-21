@@ -1,7 +1,7 @@
 {
     "shell-version": ["3.16"],
-    "uuid": "hide-legacy-tray@shell-extensions.jonnylamb.com",
-    "name": "Hide Legacy Tray",
-    "description": "Hides the legacy tray in the bottom left.",
-    "url": "http://github.com/jonnylamb/shell-hide-legacy-tray/"
+    "uuid": "prevent-legacy-tray-hotspot@mischka.me",
+    "name": "Prevent Legacy Tray Hotspot",
+    "description": "Removes the hotspot that opens the tray by increasing the threshold.",
+    "url": "http://github.com/jacobmischka/shell-hide-legacy-tray/"
 }

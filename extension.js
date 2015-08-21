@@ -18,26 +18,13 @@
 
 const Main = imports.ui.main;
 
-let notify_id = 0;
-
 function init() {
 }
 
 function enable() {
-    Main.legacyTray.actor.hide();
-
-    /* so elegant */
-
-    notify_id = Main.legacyTray.actor.connect("notify::visible", function() {
-        if (Main.legacyTray.actor.visible)
-            Main.legacyTray.actor.hide();
-    });
+    imports.ui.main.legacyTray._pressureBarrier._threshold = 10000;
 }
 
 function disable() {
-    if (notify_id > 0)
-        Main.legacyTray.actor.disconnect(notify_id);
-    notify_id = 0;
-
-    Main.legacyTray.actor.show();
+    imports.ui.main.legacyTray._pressureBarrier._threshold = 70;
 }

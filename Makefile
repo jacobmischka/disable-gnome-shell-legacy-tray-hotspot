@@ -9,8 +9,8 @@ STATUS=$$(gsettings get $(SCHEMA) $(KEY) | grep "$(UUID)" > /dev/null 2>&1; if [
 all:
 
 install:
-	@echo "You should install this extension from <https://extensions.gnome.org/extension/967>."
-	@echo "If you really need to install from source, for instance because you are making changes, you can use 'make force-install'."
+	# @echo "You should install this extension from <https://extensions.gnome.org/extension/967>."
+	# @echo "If you really need to install from source, for instance because you are making changes, you can use 'make force-install'."
 
 force-install: uninstall-link
 	@if [ `id -u` = 0 ]; then \
