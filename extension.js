@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 Jonny Lamb <jonnylamb@jonnylamb.com>
+ * Copyright (C) 2015 Jacob Mischka <jacobmischka@gmail.com>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
