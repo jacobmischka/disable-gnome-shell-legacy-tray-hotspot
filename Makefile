@@ -1,6 +1,6 @@
 EXT_DIR="$(HOME)/.local/share/gnome-shell/extensions"
 UUID=`perl -nle 'if (m{"uuid": "([^"]+)"}) { print $$1 }' metadata.json`
-FILES="AUTHORS COPYING README extension.js metadata.json"
+FILES="AUTHORS COPYING README.md extension.js metadata.json"
 
 SCHEMA="org.gnome.shell"
 KEY="enabled-extensions"
@@ -10,7 +10,7 @@ all:
 
 install:
 	# @echo "You should install this extension from <https://extensions.gnome.org/extension/967>."
-	# @echo "If you really need to install from source, for instance because you are making changes, you can use 'make force-install'."
+	@echo "If you really need to install from source, for instance because you are making changes, you can use 'make force-install'."
 
 force-install: uninstall-link
 	@if [ `id -u` = 0 ]; then \
